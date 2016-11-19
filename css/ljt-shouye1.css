@@ -1,0 +1,152 @@
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+.ljt-top{
+    width: 100%;
+    height: 116px;
+
+    margin: 0 auto;
+}
+.ljt-top1{
+    width: 1200px;
+    height: 100%;
+    background: #fff;
+    margin: 0 auto;
+}
+.ljt-logo{
+    display: block;
+    width: 366px;
+    height: 96px;
+
+    float: left;
+
+}
+.ljt-l{
+
+    float: left;
+}
+.ljt-l2{
+    padding-top: 40px;
+
+}
+.ljt-l1{
+    padding-top: 16px;
+}
+.ljt-l3{
+padding-top: 10px;
+
+}
+.ljt-top-right{
+    width: 673px;
+    height: 100%;
+
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ljt-top-right1{
+    width: 120px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ljt-top-right2{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ljt-top-right3{
+    width: 151px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.ljt-top-right4{
+    width: 197px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ljt-top-right img{
+    float: left;
+}
+
+/*导航*/
+.ljt-daohang{
+    width: 100%;
+    height: 80px;
+    background: #2691fd;
+    margin: 0 auto;
+}
+.ljt-daohang1{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ljt-btn{
+    width: 135px;
+    height: 33px;
+    padding-left: 20px;
+    /*background: red;*/
+    float: left;
+    text-align: center;
+    line-height: 33px;
+}
+.ljt-btn a{
+    font-size: 20px;
+    color: #fff;
+    font-family: "微软雅黑";
+}
+.ljt-banner{
+    width: 100%;
+    height: 596px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.ljt-banner img{
+    width: 100%;
+    height: 596px;
+    margin: 0 auto;
+}
+.ljt-banner1,.ljt-banner2,.ljt-banner3{
+    width: 100%;
+    height: 596px;
+    margin: 0 auto;
+}
+.ljt-banner-btn{
+    width: 255px;
+    height: 10px;
+    background: #000;
+    position: absolute;
+    left: 50%;bottom: 17px;
+    margin-left: -130px;
+
+}
+.ljt-banner-btn1{
+    width: 75px;
+    height: 100%;
+    margin-left: 10px;
+    border: 1px solid #01b5ff;
+    float: left;
+    border-radius: 50px;
+}
