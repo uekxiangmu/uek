@@ -1,0 +1,260 @@
+body{
+    background: #EDEDED;
+    font-family: "微软雅黑";
+    font-size: 14px;
+
+}
+.fxl-top{
+    width: 1200px;
+    height: 100px;
+    /*background:red;*/
+    margin: 0 auto;
+    position: relative;
+
+}
+.fxl-w{
+    width: 600px;
+    height: 20px;
+    /*background: #000;*/
+    position: absolute;
+    left: 32px;
+    bottom:10px;
+    font-size: 12px;
+}
+.fxl-sy{
+    font-weight: bold;
+    font-size: 12px;
+}
+.fxl-box{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background:#fff;
+    /*overflow: hidden;*/
+}
+.fxl-content{
+    width: 1140px;
+    height: auto;
+    /*background: red;*/
+    margin: 0 auto;
+    /*overflow: hidden;*/
+}
+.fxl-gx{
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    /*font-weight: bold;*/
+    font-family: "微软雅黑";
+}
+.fxl-js{
+    display: block;
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    color: #BCBCBC;
+
+}
+.fxl-ly{
+    font-weight: bold;
+    color: #7E7E7E;
+}
+.fxl-pople{
+    width: 100%;
+    height: 242px;
+
+}
+.fxl-zp{
+    width: 240px;
+    height: 240px;
+    border: 1px solid #ccc;
+    float: left;
+}
+.fxl-all{
+    width: 800px;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+}
+.fxl-mz{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.fxl-fl{
+    margin-top: 25px;
+    color: #149bd7;
+    font-size: 20px;
+}
+.fxl-yx{
+    margin-top: 40px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+
+}
+.fxl-zy{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.fxl-gzdd{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.fxl-ypzw{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.fxl-fg{
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #000000;
+}
+.fxl-wb{
+    width: 100%;
+    height: 250px;
+    /*background: red;*/
+}
+.fxl-two{
+    width: 100%;
+    height: auto;
+
+}
+.fxl-xygx{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.fxl-exygx{
+    font-size: 14px;
+    color: #999999;
+}
+.fxl-s{
+    color: #01b5ff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fxl-zpin{
+    width: 100%;
+    height: 755px;
+    /*background: #a7ffff;*/
+    position: relative;
+}
+.fxl-xianshi{
+    width: 325px;
+    height: 2px;
+    position: absolute;
+    right: 5px;
+    margin-bottom: 5px;
+
+}
+.fxl-xianshi .fxl-xs1{
+    width: 54px;
+    height: 2px;
+    background: #01b5ff;
+   margin-right: 20px;
+    float: left;
+    display: none;
+}
+.fxl-xianshi .fxl-xs2{
+    width: 61px;
+    height: 2px;
+    background: #01b5ff;
+    margin: 0 10px;
+    float: left;
+    display: none;
+}
+.fxl-xianshi .fxl-xs3{
+    width: 56px;
+    height: 2px;
+    background: #01b5ff;
+    margin: 0 23px;
+    float: left;
+    display: none;
+}
+.fxl-xianshi .fxl-xs4{
+    width: 56px;
+    height: 2px;
+    background: #01b5ff;
+    /*margin: 0 10px;*/
+    margin-left: 10px;
+    float: left;
+    display: none;
+}
+.fxl-three a span:hover{
+    color: #01b5ff;
+
+}
+a{
+    text-decoration: none;
+}
+.fxl-three{
+    width: 350px;
+    height: 20px;
+    float: right;
+    font-size: 14px;
+}
+
+.fxl-three span{
+    color: #666;
+    margin-right: 10px;
+    margin-left:10px;
+}
+.fxl-dianji{
+    width: 1140px;
+    height: 709px;
+    overflow: hidden;
+}
+.fxl-zhanshi{
+    width: 1140px;
+    height: 709px;
+    /*background: red;*/
+    float: left;
+    margin-top: 15px;
+}
+.fxl-zhanshi .fxl-item{
+    width: 361px;
+    height: 203px;
+    margin: 14px;
+    float: left;
+}
+.fxl-zhanshi .fxl-item1{
+    margin-left: 0;
+}
+.fxl-zhanshi .fxl-itemr{
+    margin-right: 0;
+}
+.fxl-foot{
+    width: 100%;
+    height: 45px;
+    /*background: red;*/
+    margin-top: 45px;
+}
+.fxl-foot .fxl-fenxiang{
+    text-align: left;
+    line-height: 45px;
+}
+.fxl-foot a{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.fxl-foot img{
+    vertical-align: middle;
+}
+.fxl-foot .fxl-dianzan{
+    float:right;
+    margin-right: 15px;
+}
+.fxl-foot .fxl-dianzan1{
+    margin-right: 30px;
+}
+.fxl-fkbai{
+    width: 100%;
+    height: 50px;
+}
