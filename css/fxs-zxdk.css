@@ -1,0 +1,150 @@
+*{
+    font-family: "微软雅黑"!important;
+}
+ul{
+  list-style: none;
+  padding:0;
+    margin-top: 20px !important;
+}
+ul li{
+    font-size: 14px;
+    color: #666666;
+    margin:5px 0;
+}
+.fxs-zxdk{
+    width:1200px;
+    height:730px;
+    margin:0 auto;
+    background: #ffffff;
+}
+.fxs-bt{
+    width:1140px;
+    height:29px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.fxs-qc{
+    height:0;
+    width:auto;
+    border-top: 1px solid #fff;
+}
+.fxs-bt p{
+    /*font-family: "微软雅黑";*/
+    font-size:26px;
+    color: #000;
+}
+.fxs-p1{
+    /*font-family: "微软雅黑";*/
+    font-size:12px;
+    color: #666666;
+}
+.fxs-bt1{
+    width:1140px;
+    height:20px;
+    margin:0 auto;
+}
+.fxs-bt2{
+    width:1140px;
+    height:10px;
+    margin:0 auto;
+    background-image:url(../images/fxs-images/fxs-bk.png);
+}
+.fxs-bt3{
+    width:1140px;
+    height:130px;
+    margin:0 auto;
+}
+.fxs-bt4{
+    width:1140px;
+    height:100px;
+    margin:0 auto;
+}
+.fxs-bt5{
+    width:1140px;
+    height:70px;
+    margin:0 auto;
+}
+.fxs-bt6{
+    width:1140px;
+    height:160px;
+    margin:0 auto;
+}
+.fxs-bt7{
+    width:1140px;
+    height:55px;
+    margin:0 auto;
+}
+.fxs-list{
+    width:80px;
+    height:40px;
+    font-size: 14px;
+    float: left;
+}
+.fxs-list p{
+    margin:0;
+    display: block;
+    margin-top: 20px;
+    width:auto;
+}
+.fxs-p2{
+    font-size:14px;
+    color: #666666;
+
+}
+.fxs-tb{
+    width:42px;
+    height:42px;
+    float: left;
+    margin-right:10px;
+}
+.fxs-tb a{
+    display: block;
+    height:42px;
+    width:auto;
+}
+.fxs-list1{
+    background:url(../images/fxs-images/tb.png) 0 -5px;
+}
+.fxs-list2{
+    background:url(../images/fxs-images/tb.png) -55px -4px;
+}
+.fxs-list3{
+    background:url(../images/fxs-images/tb.png) -110px -4px;
+}
+.fxs-list4{
+    background:url(../images/fxs-images/tb.png) -165px -4px;
+}
+.fxs-list5{
+    background:url(../images/fxs-images/tb.png) -218px -2px;
+    width:46px;
+    height:46px;
+    float: right;
+    margin-right: 0;
+}
+.fxs-list6{
+    background:url(../images/fxs-images/tb.png) -273px -3px;
+    width:46px;
+    height:46px;
+    float: right;
+    margin-right: 0;
+}
+.fxs-out{
+    width:46px;
+    height:60px;
+    float: right;
+    margin-left: 10px;
+}
+.fxs-out p{
+    display: block;
+    width:46px;
+    height:14px;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+}
+.fxs-bt8{
+    width:1140px;
+    height:10px;
+    background-image:url(../images/fxs-images/fxs-bk.png);
+    margin-bottom:0px;
+}
