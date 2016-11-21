@@ -53,8 +53,7 @@ $(document).ready(function(){
     $(".mjh-yyxw-zhxwbt").click(function(){
         var index=$(this).index()
         $(".mjh-yyxw-zhxwbt").css("color","#ccc").eq(index).css("color","transparent")
-        $("img",this).attr("src","images/mjh/syxw_12.png").eq(index).attr("src","images/mjh/syxw_05.png")
-        console.log($("img",this))
+        $("img",".mjh-yyxw-zhxwbt").attr("src","images/mjh/syxw_12.png").eq(index).attr("src","images/mjh/syxw_05.png")
     })
 
     // 选项卡
@@ -71,17 +70,17 @@ $(document).ready(function(){
     // 就业展示
     xxk2($(".mjh-jysj",".mjh-jyzsbt"),$(".mjh-jyzs"))
     // 学员作品
-    xxk2($(".mjh-jysj",".mjh-xyzpbt"))
+    xxk2($(".mjh-jysj",".mjh-xyzpbt"),$(".mjh-xyzp"))
     // 优逸视频
     xxk2($(".mjh-jysj",".mjh-yyspbt"))
     // 优逸新闻
-    xxk2($(".mjh-jysj",".mjh-yyxwbt"))
+    xxk2($(".mjh-jysj",".mjh-yyxwbt"),$(".mjh-yyxw-ybxw"))
     // 热门问题
-    xxk2($(".mjh-jysj",".mjh-rmwtbt"))
+    xxk2($(".mjh-jysj",".mjh-rmwtbt"),$(".mjh-rmwt"))
     // 荣誉证书
-    xxk2($(".mjh-jysj",".mjh-ryzsbt"))
+    xxk2($(".mjh-jysj",".mjh-ryzsbt"),$(".mjh-ryzs"))
     // 合作企业
-    xxk2($(".mjh-jysj",".mjh-hzqybt"))
+    xxk2($(".mjh-jysj",".mjh-hzqybt"),$(".mjh-hzqy"))
 
 
     // 滚动条

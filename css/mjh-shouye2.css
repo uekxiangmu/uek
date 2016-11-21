@@ -100,9 +100,15 @@ img.mjh-bt-yt{margin-right:-246px;float: right;}
     display:block;color:#646464;
 }
 /*学员作品*/
+.mjh-xyzpwk{
+    margin:0 auto;width:1200px;height:638px;
+}
 .mjh-xyzp{
     margin:0 auto;width:1200px;overflow:hidden;
     height:auto;
+    display:none;
+}
+.mjh-xyzp.dangqian{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -189,10 +195,13 @@ float:left;}
 }
 .mjh-yyxw-zhxwbt img{position:absolute;top: 0;left:0;}
 /*(-106deg,#5ae65d,#28b1ff) */
+
+.mjh-yyxw-ybxwwk{width:440px;height:100%;float:right;}
 .mjh-yyxw-ybxw{
-    width:440px;height:100%;float:right;
+    width:440px;height:100%;float:right;display:none;
     border-left: 1px dashed #ccc;padding-left: 15px;
 }
+.mjh-yyxw-ybxw.dangqian{display:block;}
 .mjh-yyxw-yxwqu{
     width:100%;height:33.333%;
     padding:10px 0;
@@ -204,7 +213,9 @@ float:left;}
 .mjh-yyxw-yqms{color:#666;line-height: 24px;margin-top: 10px;}
 
 /*热门问题*/
-.mjh-rmwt{width:1200px;height:370px;margin:0 auto;overflow:hidden;}
+.mjh-rmwtwk{width:1200px;height:370px;margin:0 auto;}
+.mjh-rmwt{width:1200px;height:370px;margin:0 auto;overflow:hidden;display:none;}
+.mjh-rmwt.dangqian{display:block;}
 .mjh-wtqy{width:2400px;height:307px;margin-left: 0;}
 .mjh-wtfqu{width:268px;height:305px;border-top: 2px solid #666;padding:15px 10px;margin:0 16px;position:relative;float:left;}
 .mjh-wtfqu.active{border-top:none;background:#fff;box-shadow: 0 0 16px 0 #a1a1a1;padding-top: 17px;}
@@ -228,7 +239,9 @@ float:left;}
 .mjh-wt-dhbnt{position:absolute;width:20px;height:6px;left:0;top: -2px;border-radius: 3px; background:#479ffa;}
 
 /*荣誉证书*/
-.mjh-ryzs{width:1200px;height: 218px;margin:0 auto;}
+.mjh-ryzswk{width:1200px;height: 218px;margin:0 auto;}
+.mjh-ryzs{width:1200px;height: 218px;margin:0 auto;display:none;}
+.mjh-ryzs.dangqian{display:block;}
 .mjh-ryzs-qy{
     width:290px;height:218px;float:left;margin:0 5px;
 }
@@ -239,7 +252,9 @@ float:left;}
 .mjh-ryzs-qy:hover .mjh-ryzs-inqy{transform: rotateY(-180deg);}
 
 /*合作企业*/
-.mjh-hzqy{width:1200px;height:184px;margin:0 auto;margin-bottom: 60px;padding:0 125px;}
+.mjh-hzqywk{width:1200px;height:184px;margin:0 auto;margin-bottom: 60px;}
+.mjh-hzqy{width:1200px;height:184px;margin:0 auto;padding:0 125px;display:none;}
+.mjh-hzqy.dangqian{display:block;}
 .mjh-qy-loge{display:block;float:left;width:150px;height:67px;margin:12px 20px;border:1px solid #d2d2d2;overflow:hidden;}
 .mjh-qy-loge:hover{border:1px solid #0369db;}
 
