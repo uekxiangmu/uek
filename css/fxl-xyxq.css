@@ -235,14 +235,21 @@ a{
     height: 45px;
     /*background: red;*/
     margin-top: 45px;
+    /*float: left;*/
+}
+.fxl-foot span{
+    display: block;
+    float: left;
 }
 .fxl-foot .fxl-fenxiang{
     text-align: left;
     line-height: 45px;
 }
 .fxl-foot a{
-    margin-right: 8px;
-    margin-left: 8px;
+   /* margin-right: 4px;*/
+    margin-left: 6px;
+    display: block;
+    float: left;
 }
 .fxl-foot img{
     vertical-align: middle;
@@ -257,4 +264,11 @@ a{
 .fxl-fkbai{
     width: 100%;
     height: 50px;
+}
+.fxs_kong{
+    width: auto;
+    height: 1px;
+}
+.fxs_p1{
+    margin-top: 30px;
 }

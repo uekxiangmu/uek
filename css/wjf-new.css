@@ -1,0 +1,256 @@
+*{
+    margin:0;
+}
+ul{
+    margin:0;padding:0;
+    list-style: none;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.wjf-iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+/*最大容器*/
+.wjf-content{
+    width:100%;
+    height:auto;
+    background:#fafafa;
+}
+/*banner下边*/
+.wjf-top{
+    width:1200px;
+    height:20px;
+    margin:0 auto;
+    padding:30px 0;
+}
+.wjf-shouye{
+    width:auto;
+    height:20px;
+    font-size: 18px;
+    float: left;
+    color:#666;
+}
+.wjf-shouye1{
+    margin:0 10px;
+}
+.wjf-shouye2 a{
+    text-decoration: none;
+    color:#01b5ff;
+}
+/*新闻资讯*/
+.wjf-new{
+    width:1200px;
+    height:auto;
+    margin: 0 auto;
+    overflow:hidden;
+}
+/*左边的内容*/
+.wjf-new-left{
+    width:300px;
+    height:594px;
+    background:#fff;
+    float: left;
+}
+/*上边线*/
+.wjf-left-top{
+    width:100%;
+    height:2px;
+    background:#94d43b;
+}
+/*左边资讯的内容*/
+.wjf-left-bottom{
+    /*width:238px;*/
+    height:534px;
+    border:1px solid #ccc;
+    padding:30px 30px;
+}
+.wjf-left-bottom-top{
+    width:240px;
+    height:50px;
+}
+.wjf-span1,.wjf-span2{
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+.wjf-span1{
+    color:#b8b8b8;
+}
+.wjf-span2{
+    color:#000;
+}
+.wjf-left-bottom-center{
+    width:100%;
+    height:43px;
+    line-height: 43px;
+}
+.wjf-left-bottom-bottom{
+    width:240px;
+    height:auto;
+}
+.wjf-left-bottom-bottom li{
+    width:100%;
+    height:20px;
+    font-size: 20px;
+    margin-bottom:20px;
+    /*background:red;*/
+    display: flex;
+    justify-content: flex-start;
+}
+.wjf-li-dian {
+    width: 5px;
+    height: 5px;
+    background:#ffda1a;
+    margin-right: 10px;
+    margin-top:7px;
+    border-radius: 50%;
+}
+.wjf-li-a{
+    width:200px;
+    height:100%;
+    line-height: 20px;
+}
+.wjf-li-a a{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    color:#000;
+}
+.wjf-color{
+    color:#01b5ff!important;
+}
+/*新闻资讯右边*/
+.wjf-new-right{
+    width:880px;
+    height:1280px;
+    background:#fff;
+    float: right;
+    position: relative;
+}
+/*右边资讯的内容*/
+.wjf-left-bottomBox{
+    width:878px;
+    height:1189px;
+    position: absolute;
+    top:2px;left:0;
+    overflow:hidden;
+    display: none;
+}
+.wjf-active{
+    display: block;
+}
+.wjf-left-bottom1{
+    /*width:838px;*/
+    height:auto;
+    border:1px solid #ccc;
+    padding:30px 20px 0 20px;
+    overflow:hidden;
+    position: absolute;
+    top:0;
+}
+.wjf-left-bottom1-top{
+    width:240px;
+    height:50px;
+    margin-left:10px;
+    font-size:26px;
+    color:#01b5ff;
+    font-family: "微软雅黑";
+    text-align: left;
+}
+.wjf-left-bottom1-new{
+    width:818px;
+    height:157px;
+    margin-left:10px;
+    margin-bottom:5px;
+    padding-top:5px;
+    display: flex;
+    justify-content: space-between;
+}
+.wjf-left-bottom1-new-video{
+    width:190px;
+    height:143px;
+    background:#ccc;
+    margin-right:30px;
+}
+.wjf-left-bottom1-new-right{
+    width:600px;height:100%;
+}
+.wjf-left-bottom1-new-right-top{
+    width:100%;
+    height:50px;
+    border-bottom:1px dashed #ccc;
+    line-height:50px;
+}
+.wjf-word{
+    width:190px;
+    height:50px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height:50px;
+    color:#000;
+    float: left;
+}
+.wjf-icon,.wjf-icon1{
+    width:40px;
+    height:16px;
+    border-radius: 5px;
+    float: left;
+    margin-left:10px;
+    margin-top:15px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+.wjf-icon{
+    border:1px solid #f8c4d5;
+    color:#e93a72;
+}
+.wjf-icon1{
+    border:1px solid #fff4c2;
+    color:#e9db3a;
+}
+.wjf-time{
+    width:120px;
+    height:50px;
+    float: right;
+}
+.wjf-iconfont{
+    color:#42c8ff;
+}
+.wjf-left-bottom1-new-right-bottom{
+    width:100%;
+    height:90px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 2em;
+    color:#666666;
+}
+.wjf-dashed{
+    width:838px;
+    height:0;
+    border-bottom:1px dashed #666;
+    margin-bottom:20px;
+}
+.swiper-pagination{
+    width:800px;
+    height:20px;
+    display: flex;
+    justify-content: center;
+}
+.wjf-page{
+    width:100%;
+    height:80px;
+    position: absolute;
+    bottom:0;left:0;
+    
+}
+#wjf-page1{
+    box-sizing:content-box;
+}

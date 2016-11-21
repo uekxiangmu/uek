@@ -1,0 +1,264 @@
+body{
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+
+}
+.fxl_box{
+    width:100%;
+    height: auto;
+    margin: 0 auto;
+    /*background: red;*/
+    background: #FAFAFA;
+}
+.fxl_banner{
+    width: 100%;
+    height:360px;
+    background: #313131;
+}
+.fxl_content{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: #FAFAFA;
+    overflow: hidden;
+}
+.fxl_list{
+    margin-top:35px;
+    margin-bottom: 30px;
+
+    width: 100%;
+    height: 15px;
+    color:#666666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fxl_rmxw{
+    color: #01b5ff;
+}
+.fxl_left{
+    background: #fff;
+    width: 300px;
+    height:590px;
+    border: 1px solid #ccc;
+    float: left;
+    border-top: 2px solid #94d43b;
+}
+.fxl_hot{
+    width: 240px;
+    height: 100%;
+    margin:0 auto;
+    /*background: red;*/
+}
+.fxl_h{
+    font-weight: bold;
+}
+.fxl_eng{
+    width: 100%;
+    font-size: 20px;
+    color: #999999;
+    margin-top: 30px;
+}
+.fxl_zh{
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    color: #000;
+}
+.fxl_rm{
+    color: #000;
+
+}
+.wt{
+    color: #666;
+}
+.fxl_x{
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background: #d3d6da;
+    position: relative;
+}
+.fxl_dian{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #c0c4c2;
+}
+.fxl_dian1{
+    position: absolute;
+    left: 0;
+    top:-1px;
+    float: left;
+}
+.fxl_dian2{
+    position: absolute;
+    right: 0;
+    top:-1px;
+    float: right;
+}
+.fxl_js{
+    width: 100%;
+    margin-top: 20px;
+}
+.fxl_js a span:hover{
+    color: #01b5ff;
+}
+.fxl_js .fxl_quan{
+    margin-top: 8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffda1a;
+    float: left;
+}
+.fxl_js .fxl_sheji{
+    color: #000;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.fxl_right{
+    background: #fff;
+    width: 880px;
+    height: auto;
+    border: 1px solid #ccc;
+    float: right;
+    border-top: 2px solid #94d43b;
+
+
+}
+.fxl_right1{
+    display: none;
+}
+.fxl_right2{
+    display: none;
+}
+.fxl_gaoxin{
+    width: 100%;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+    /*margin-bottom: 50px;*/
+}
+.fxl_gaoxin span:hover{
+    color: #01b5ff;
+}
+.fxl_one{
+    margin-top: 50px;
+    width: 820px;
+    height: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /*background: red;*/
+    overflow: hidden;
+}
+
+.fxl_one .fxl_01{
+    width: 78px;
+    height: 78px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    float: left;
+    font-size: 60px;
+    text-align: center;
+    line-height: 78px;
+    color: #cccccc;
+    cursor: pointer;
+}
+.fxl_one .fxl_01:hover{
+    color:#68E868;
+}
+.fxl_ques{
+    width: 720px;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+}
+.fxl_ques a span{
+    float: left;
+    color: #000;
+}
+.fxl_ques a span:hover{
+    color: #01b5ff;
+}
+.fxl_rnew{
+    width: 43px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #E93A72;
+    float: left;
+    margin-left: 20px;
+    color: #E93A72;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 3px;
+}
+.fxl_rhot{
+    width: 43px;
+    margin-top: 3px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #E9DB3A;
+    float: left;
+    margin-left: 20px;
+    color: #E9DB3A;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+}
+.fxl_rbiao{
+    width: 100px;
+    height: 24px;
+    /*background: red;*/
+    float: right;
+
+}
+.fxl_rbiao .fxl_rtu{
+    width: 18px;
+    height: 16px;
+    margin-right: 7px;
+    float: left;
+    position: relative;
+    /*background: red;*/
+}
+.fxl_rbiao .fxl_rtu img{
+    position: absolute;
+    top:3px;
+    left:0;
+}
+.fxl_rbiao .fxl_shijian{
+    font-size: 12px;
+    color: #909090;
+    float: right;
+}
+.fxl_wenzi{
+
+    margin-top: 40px;
+    width: 720px;
+    height: 30px;
+    color: #909090;
+
+}
+.fxl_wenzi .fxl_more{
+    color: #01b5ff;
+}
+.fxl_fenge{
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px dashed #999999;
+
+}
+.fxl_kongbai{
+    width: 100%;
+    height: 30px;
+}
+.fxs_out{
+    width: 882px;
+    height: 80px;
+    float: right;
+    text-align: center;
+}

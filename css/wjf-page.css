@@ -1,0 +1,100 @@
+
+*{ margin:0; padding:0; list-style:none;box-sizing:content-box;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+.tcdPageCode{padding: 15px 20px;text-align: left;color: #ccc;text-align:center;
+        float: left;margin-left:20px;}
+.tcdPageCode a{display: inline-block;color: #428bca;display: inline-block;height: 32px;width:32px;	line-height: 32px;	padding: 3px 3px;border: 1px solid #bbb;	margin: 0 5px;border-radius: 20px;vertical-align: middle;}
+.tcdPageCode a:hover{width:32px;display: inline-block;height: 32px;line-height: 32px;padding: 3px 3px;text-decoration: none;border: 1px solid #428bca;
+    margin:0 5px;}
+.tcdPageCode span.current{width:30px;display: inline-block;height: 30px;line-height: 30px;padding: 3px 3px;margin: 0 5px;color: #428bca;	border: 2px solid #428bca;border-radius: 20px;vertical-align: middle;}
+.tcdPageCode span.disabled{	width:60px;display: inline-block;height: 30px;line-height: 30px;padding: 3px 3px;margin: 0 5px;	color: #bfbfbf;background: #f2f2f2;border: 1px solid #bfbfbf;border-radius:20px;vertical-align: middle;}
+.tcdPageCode a .wjf-number:hover{
+    border-color:#428bca;
+}
+.tcdPageCode a .wjf-number{
+    width:30px;height:31px;
+    border:1px solid #000;
+    border-radius: 20px;
+    color:#000;
+}
+.wjf-number{
+    border:1px solid #000;
+    border-radius: 20px;
+}
+.wjf-number1{
+    width:30px;height:30px;
+    background: #428bca;
+    border-radius: 20px;
+    line-height: 30px;
+    color:#fff;
+}
+.wjf-line{
+    height:28px;
+    border:1px solid #000;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 28px;
+    color:#000;
+}
+.wjf-line-1{
+    height:28px;
+    border:1px solid #000;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 28px;
+    color:#999;
+}
+.tcdPageCode a.nextPage:hover{
+    border-color:#000;
+}
+.tcdPageCode a.wjf-nextpage{
+    width:60px;display: inline-block;color: #000;display: inline-block;height: 30px;	line-height: 30px;	padding: 3px 3px;border: 1px solid #ddd;	margin: 0 2px;border-radius: 20px;vertical-align: middle;
+}
+.tcdPageCode a.prevPage{
+    width: 60px;
+    display: inline-block;
+    height: 30px;
+    line-height:30px;
+    padding: 3px 3px;
+    margin: 0 2px;
+    color: #bfbfbf;
+    background: #f2f2f2;
+    border: 1px solid #bfbfbf;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.wjf-tz{
+    width:260px;
+    float: left;
+    padding: 25px 0;
+}
+.wjf-input{
+    height:20px;
+    line-height: 20px;
+
+    float: left;
+    margin-right:20px;
+}
+.wjf-input input{
+    width:40px;
+    margin:0 5px;
+    border-radius: 15px;
+    /*border:1px solid #000;*/
+    border-style: solid;
+    border-color:#666;
+    border-width: 1px;
+}
+.wjf-iconfontBox{
+    width:24px;height:26px;
+    padding:2px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    float: left;
+    margin-top:-5px;
+}
+.wjf-iconfont{
+    font-size:24px;
+    color:#666;
+    cursor: pointer;
+}
