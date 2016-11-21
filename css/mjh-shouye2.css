@@ -13,10 +13,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 .mjh-bt-nk{width:1200px;margin:0 auto;height:100%;padding:0 12px;position: relative;}
 img.mjh-bt-zt{margin-left: -240px;}
 img.mjh-bt-yt{margin-right:-246px;float: right;}
-.mjh-bt-zsz{font-size: 32px;font-weight: bold;}
+.mjh-bt-zsz{font-size: 32px;font-weight: bold;position:absolute;left:20px;top: 0px;}
 .mjh-bt-zxz1{font-size: 20px;font-weight: bold;}
 .mjh-bt-zxz2{font-size: 20px;color:#57caff;}
-.mjh-bt-zx{position:absolute;left:15px;bottom: 0px;}
+.mjh-bt-zx{position:absolute;left:20px;bottom: 0px;}
 .mjh-bt-y{
     position:absolute;right:12px;bottom:0px;
     line-height: 34px;font-size: 14px;
@@ -134,22 +134,28 @@ img.mjh-bt-yt{margin-right:-246px;float: right;}
     border-radius: 18px;border:1px solid #555;
     margin-top: 15px;
 }
+
+
 .mjh-zpzs-zpl{
     width:554px;height:500px;float:left;
     overflow:hidden;
+    position:relative;
 }
 .mjh-zpzs-zpt{
     margin:8px;float:left;
 }
 .mjh-zpzs-zpk{
     min-width:2000px;/*overflow:hidden;*/
-    height:420px;
+    height:420px;margin-left: 0px;
 }
 .mjh-zpzs-xian{
     width:554px;height:2px;
     background-image:linear-gradient(-106deg,#5ae65d,#28b1ff) ;
     margin-top: 60px;
+    position:absolute;
+    bottom:10px;left:0;
 }
+.mjh-zp-dhbnt{position:absolute;width:20px;height:6px;left:0;top: -2px;border-radius: 3px; background:#479ffa;}
 
 /*优逸新闻*/
 
@@ -173,14 +179,23 @@ img.mjh-bt-yt{margin-right:-246px;float: right;}
 float:left;}
 .mjh-yyxw-zhxwtp img{position:absolute;top: 0;left:0;}
 .mjh-yyxw-zhxwbtq{width:85px;height:100%;float:left;display:flex;flex-direction: column;justify-content:space-between;}
-.mjh-yyxw-zhxwbt{width:85px;height:80px;background:url(../images/mjh/syxw_12.png);line-height: 80px;text-align: center;font-size: 60px;color:#ccc;}
-
+.mjh-yyxw-zhxwbt{width:85px;height:80px;
+    position:relative;
+    line-height: 80px;text-align: center;font-size: 60px;color:#ccc;
+    background-image: linear-gradient(-164deg,#28b1ff,#5ae65d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+.mjh-yyxw-zhxwbt img{position:absolute;top: 0;left:0;}
+/*(-106deg,#5ae65d,#28b1ff) */
 .mjh-yyxw-ybxw{
     width:440px;height:100%;float:right;
     border-left: 1px dashed #ccc;padding-left: 15px;
 }
 .mjh-yyxw-yxwqu{
     width:100%;height:33.333%;
+    padding:10px 0;
     border-bottom: 1px dashed #ccc;
 }
 .mjh-yyxw-yqs{width:100%;overflow:hidden;}
@@ -190,21 +205,27 @@ float:left;}
 
 /*热门问题*/
 .mjh-rmwt{width:1200px;height:370px;margin:0 auto;overflow:hidden;}
-.mjh-wtqy{max-width:2000px;height:307px;}
+.mjh-wtqy{width:2400px;height:307px;margin-left: 0;}
 .mjh-wtfqu{width:268px;height:305px;border-top: 2px solid #666;padding:15px 10px;margin:0 16px;position:relative;float:left;}
 .mjh-wtfqu.active{border-top:none;background:#fff;box-shadow: 0 0 16px 0 #a1a1a1;padding-top: 17px;}
 .mjh-wtfqx{display:none;position:absolute;top: 0;left:0;}
 .mjh-wtfqy-xx{
     width:250px;height:60px;
 }
-.mjh-wtfqy-xh{color:#ccc;width:60px;height:60px;float:left;font-size: 60px;line-height: 60px;}
-.mjh-wtfqy-xy{width:190px;height:60px;padding-left: 10px; float:left;}
+.mjh-wtfqy-xh{color:#ccc;width:70px;height:60px;float:left;font-size: 60px;line-height: 60px;
+    /*color:transparent;*/
+    background-image: linear-gradient(-164deg,#28b1ff,#5ae65d);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.mjh-wtfqy-xy{width:180px;height:60px;padding-left: 10px; float:left;}
 .mjh-wtfqy-bt{font-size: 20px;color:#222;line-height: 1.5em;}
 .mjh-wtfqy-fb{font-size: 12px;color:#666;line-height: 1.5em;}
 .mjh-wtfqy-fbj{padding:0 10px;}
 .mjh-wtfqy-yd{position:absolute;bottom:20px;right:20px;}
 
-.mjh-wt-dhx{width:1200px;height:2px;background:#666;margin-top: 55px;}
+.mjh-wt-dhx{width:1200px;height:2px;background-image:linear-gradient(-106deg,#5ae65d,#28b1ff) ;margin-top: 55px;position:relative;}
+.mjh-wt-dhbnt{position:absolute;width:20px;height:6px;left:0;top: -2px;border-radius: 3px; background:#479ffa;}
 
 /*荣誉证书*/
 .mjh-ryzs{width:1200px;height: 218px;margin:0 auto;}

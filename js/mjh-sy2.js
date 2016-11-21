@@ -39,14 +39,23 @@ $(document).ready(function(){
     // 热门问题 hover
     $(".mjh-wtfqu").hover(function(){
         $(".mjh-wtfqy-bt",this).css("color","#01b5ff")
+        $(".mjh-wtfqy-xh",this).css("color","transparent")
         $(".mjh-wtfqx",this).show()
         $(this).toggleClass('active');
     },function(){
         $(".mjh-wtfqy-bt",this).css("color","#222")
+        $(".mjh-wtfqy-xh",this).css("color","#ccc")
         $(this).toggleClass('active');
         $(".mjh-wtfqx",this).hide()
     })
 
+    // 优逸新闻 中间选项卡
+    $(".mjh-yyxw-zhxwbt").click(function(){
+        var index=$(this).index()
+        $(".mjh-yyxw-zhxwbt").css("color","#ccc").eq(index).css("color","transparent")
+        $("img",this).attr("src","images/mjh/syxw_12.png").eq(index).attr("src","images/mjh/syxw_05.png")
+        console.log($("img",this))
+    })
 
     // 选项卡
     function xxk2(zd,bd){
@@ -75,7 +84,48 @@ $(document).ready(function(){
     xxk2($(".mjh-jysj",".mjh-hzqybt"))
 
 
+    // 滚动条
+    function gdt(nk,wk,dt,bn){
+        var nkw=parseInt(nk.css("width")) 
+        var wkw=parseInt(wk.css("width")) 
+        var dtw=parseInt(dt.css("width"))
+        bn.css("width",wkw/nkw*dtw)
+        var bnw=parseInt(bn.css("width"))
+        bn.css("left",parseInt(nk.css("margin-left"))/nkw*dtw)
+             
 
+        dt.click(function(e) {
+            var ox=e.offsetX-bnw/2
+            if(ox<=0){ox=0}
+            if(ox>=dtw-bnw){ox=dtw-bnw}
+            bn.css("left",ox)
+            nk.css("margin-left",-ox/dtw*nkw)
+            // wk.scrollLeft(ox/dtw*nkw)
+        });
+        bn.click(function(e){e.stopPropagation()})
 
+        bn.mousedown(function(e) {
+            var lenx=e.clientX-bn[0].offsetLeft
+            $(document).mousemove(function(e) {
+                var gy=e.clientX-lenx
+                // console.log(e.clientX,lenx)
+                if(gy<=0){gy=0}
+                if(gy>=dtw-bnw){gy=dtw-bnw}
+                bn.css("left",gy)
+                nk.css("margin-left",-gy/dtw*nkw)
+            });
+            e.preventDefault()
+            $(document).mouseup(function() {
+                $(document).unbind("mousemove")
+                $(document).unbind("mouseup")
+            });
+        });
+    }
+
+    // 学员作品滚动条
+    gdt($(".mjh-zpzs-zpk"),$(".mjh-zpzs-zpl"),$(".mjh-zpzs-xian"),$(".mjh-zp-dhbnt"))
+
+    // 热门问题滚动条
+    gdt($(".mjh-wtqy"),$(".mjh-rmwt"),$(".mjh-wt-dhx"),$(".mjh-wt-dhbnt"))
 
 });
