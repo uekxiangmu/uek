@@ -58,7 +58,7 @@ $(document).ready(function(){
 
     // 选项卡
     function xxk2(zd,bd){
-        zd.click(function() {
+        zd.mouseover(function() {
            var index=$(this).index()
            zd.removeClass('dangqian')
            $(this).toggleClass('dangqian');
@@ -91,7 +91,6 @@ $(document).ready(function(){
         bn.css("width",wkw/nkw*dtw)
         var bnw=parseInt(bn.css("width"))
         bn.css("left",parseInt(nk.css("margin-left"))/nkw*dtw)
-             
 
         dt.click(function(e) {
             var ox=e.offsetX-bnw/2
@@ -122,9 +121,16 @@ $(document).ready(function(){
     }
 
     // 学员作品滚动条
-    gdt($(".mjh-zpzs-zpk"),$(".mjh-zpzs-zpl"),$(".mjh-zpzs-xian"),$(".mjh-zp-dhbnt"))
+    gdt($(".mjh-zpzs-zpk").eq(0),$(".mjh-zpzs-zpl").eq(0),$(".mjh-zpzs-xian").eq(0),$(".mjh-zp-dhbnt").eq(0))
+     gdt($(".mjh-zpzs-zpk").eq(1),$(".mjh-zpzs-zpl").eq(1),$(".mjh-zpzs-xian").eq(1),$(".mjh-zp-dhbnt").eq(1))
+      gdt($(".mjh-zpzs-zpk").eq(2),$(".mjh-zpzs-zpl").eq(2),$(".mjh-zpzs-xian").eq(2),$(".mjh-zp-dhbnt").eq(2))
+       gdt($(".mjh-zpzs-zpk").eq(3),$(".mjh-zpzs-zpl").eq(3),$(".mjh-zpzs-xian").eq(3),$(".mjh-zp-dhbnt").eq(3))
+
+
 
     // 热门问题滚动条
-    gdt($(".mjh-wtqy"),$(".mjh-rmwt"),$(".mjh-wt-dhx"),$(".mjh-wt-dhbnt"))
+    gdt($(".mjh-wtqy").eq(0),$(".mjh-rmwt").eq(0),$(".mjh-wt-dhx").eq(0),$(".mjh-wt-dhbnt").eq(0))
+    gdt($(".mjh-wtqy").eq(1),$(".mjh-rmwt").eq(1),$(".mjh-wt-dhx").eq(1),$(".mjh-wt-dhbnt").eq(1))
+    gdt($(".mjh-wtqy").eq(2),$(".mjh-rmwt").eq(2),$(".mjh-wt-dhx").eq(2),$(".mjh-wt-dhbnt").eq(2))
 
 });
