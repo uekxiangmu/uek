@@ -53,18 +53,17 @@ $(".ljt-banner-btn1").mouseover(function () {
            var index=$(this).index()
            zd.removeClass('qian')
            $(this).toggleClass('qian');
-           bd.removeClass('qian').css("opacity","0")
-           .eq(index).toggleClass('qian').css("opacity","1")
+           bd.removeClass('qian').css("display","none")
+           .eq(index).css("display","block")
         });
     }
     function bp(zd,bd){
         zd.mouseover(function() {
            var index=$(this).index()
-           bd.css("opacity","0")
-           .eq(index).css("opacity","1")
+           bd.css("opacity","0").eq(index).css("opacity","1")
         });
     }
-ccf($(".mjh-jysj"),$(".ljt-s1-1"));
+ccf($(".mjh-jysj"),$(".ljt-shibao"));
 
 bp($(".ljt-bt1"),$(".ljt-cv"));
 
